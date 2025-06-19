@@ -1,9 +1,6 @@
-
 import Navigation from "@/components/Navigation";
-
 const About = () => {
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       <Navigation />
       
       <main className="pt-20">
@@ -25,12 +22,7 @@ const About = () => {
                     My journey into design began with a curiosity about how technology can better serve people's needs 
                     and create meaningful experiences.
                   </p>
-                  <p>
-                    What started as an interest in problem-solving through code has evolved into a passion for 
-                    user-centered design and data-driven decision making. I believe that great design isn't just 
-                    about aesthetics—it's about understanding users, solving real problems, and creating solutions 
-                    that make a difference.
-                  </p>
+                  <p>What started as an interest in problem-solving through code has evolved into a passion for user-centered design and data-driven decision making. I believe that great design isn't just about aesthetics, it's about understanding users, solving real problems, and creating solutions that make a difference.</p>
                   <p>
                     Through my academic journey and personal projects, I've developed a unique perspective that 
                     combines technical knowledge with design thinking, allowing me to bridge the gap between 
@@ -41,12 +33,7 @@ const About = () => {
               
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Design Philosophy</h2>
-                <p className="text-gray-600 leading-relaxed">
-                  I approach every project with empathy and curiosity. Good design should be invisible—it should 
-                  feel natural and intuitive to users while solving their problems effectively. I believe in the 
-                  power of research, iteration, and user feedback to create solutions that truly resonate with 
-                  people's needs and goals.
-                </p>
+                <p className="text-gray-600 leading-relaxed">I approach every project with empathy and curiosity. Good design should be invisible , it should feel natural and intuitive to users while solving their problems effectively. I believe in the power of research, iteration, and user feedback to create solutions that truly resonate with people's needs and goals.</p>
               </div>
             </div>
             
@@ -101,19 +88,15 @@ const About = () => {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Tools</h3>
                 <div className="flex flex-wrap gap-2">
-                  {["Figma", "Adobe XD", "Sketch", "HTML", "CSS", "JavaScript", "Python", "SQL"].map((tool) => (
-                    <span key={tool} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+                  {["Figma", "Adobe XD", "Sketch", "HTML", "CSS", "JavaScript", "Python", "SQL"].map(tool => <span key={tool} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
                       {tool}
-                    </span>
-                  ))}
+                    </span>)}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
