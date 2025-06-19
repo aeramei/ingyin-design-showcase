@@ -47,9 +47,11 @@ const Index = () => {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full opacity-20 absolute -top-4 -left-4"></div>
-                <div className="w-72 h-72 bg-gray-200 rounded-full flex items-center justify-center relative">
-                  <span className="text-gray-500 text-lg">Profile Picture</span>
-                </div>
+                <img 
+                  src="https://i.postimg.cc/MHkXCTjt/viber-image-2025-03-21-11-28-49-629.jpg" 
+                  alt="Ingyin Khine Profile Picture"
+                  className="w-72 h-72 rounded-full object-cover relative shadow-2xl border-4 border-white"
+                />
               </div>
             </div>
           </div>
